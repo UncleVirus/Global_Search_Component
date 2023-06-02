@@ -1,7 +1,8 @@
 .search-form {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .input-wrapper {
@@ -31,5 +32,23 @@
 }
 
 .search-button:hover {
-  color: #555555;
+  color: #1f045e;
+}
+
+
+.emp-info{
+
+padding-left: 0%;
+display: block;
+align-items: right;
+
+}
+
+.image-component{
+
+  padding: right;
+  border: #1a3142;
+  text-align: end;
+  align-content: center;
+  image-orientation: flip;
 }
